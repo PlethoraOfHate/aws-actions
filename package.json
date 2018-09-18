@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.27.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PlethoraOfHate/aws-actions.git"
+    },
     "categories": [
         "Snippets"
     ],
