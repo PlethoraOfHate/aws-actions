@@ -1,0 +1,52 @@
+{
+    "name": "aws-actions",
+    "displayName": "AWS Actions",
+    "description": "Snippets of all the AWS actions available for use in things such as CloudFormation templates or IAM policy documents.",
+    "version": "1.0.0",
+    "publisher": "PlethoraOfHate",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "json",
+                "aliases": [
+                    "JSON",
+                    "json"
+                ],
+                "extensions": [
+                    ".json",
+                    ".cform",
+                    ".template"
+                ]
+            },
+            {
+                "id": "yaml",
+                "aliases": [
+                    "YAML",
+                    "json"
+                ],
+                "extensions": [
+                    ".yaml",
+                    ".yml",
+                    ".cform",
+                    ".template"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/yaml.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.json"
+            }
+        ]
+    }
+}
